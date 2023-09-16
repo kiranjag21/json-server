@@ -1,111 +1,279 @@
 {
-  "html": [
-    {
-      "question": "a new questuion edited!!",
-      "answer": "Option 1",
-      "option1": "Option 1",
-      "option2": "Option 2",
-      "option3": "Option 3",
-      "option4": "Option 4",
-      "id": 8
-    },
-    {
-      "question": "What does HTML stands for???",
-      "answer": "Hypertext Markup Language.",
-      "option1": "Hypertext Machine language",
-      "option2": "Hypertext and links markup language",
-      "option3": "Hypertext Markup Language.",
-      "option4": "Hightext machine language",
-      "id": 9
-    },
-    {
-      "question": "What does HTML stands for?",
-      "answer": "Hypertext Markup Language",
-      "option1": "Hypertext Machine language.",
-      "option2": "Hypertext and links markup language",
-      "option3": "Hypertext Markup Language",
-      "option4": "Hightext machine language.",
-      "id": 10
-    },
-    {
-      "question": "html",
-      "answer": "a",
-      "option1": "a",
-      "option2": "b",
-      "option3": "c",
-      "option4": "d",
-      "img": "../admin/images/htmlLogo.png",
-      "id": 11
-    },
-    {
-      "question": "sdfsca",
-      "answer": "asd",
-      "option1": "vadv",
-      "option2": "avsd",
-      "option3": "vsd",
-      "option4": "vsdv",
-      "img": "../admin/images/logo.png",
-      "id": 12
-    }
-  ],
-  "js": [
-    {
-      "question": "a new questuion edited!!",
-      "answer": "vgs",
-      "option1": "vgs",
-      "option2": "Option 1",
-      "option3": "Option 1",
-      "option4": "Option 1",
-      "id": 7
-    },
-    {
-      "question": "a new questuion edited!!",
-      "answer": "Option 1",
-      "option1": "Option 1",
-      "option2": "Option 1",
-      "option3": "Option 1",
-      "option4": "Option 1",
-      "id": 8
-    },
-    {
-      "question": "a new questuion edited!!",
-      "answer": "Option 1",
-      "option1": "Option 1",
-      "option2": "Option 1",
-      "option3": "Option 1",
-      "option4": "Option 1",
-      "id": 9
-    },
-    {
-      "question": "New js ",
-      "answer": "js1",
-      "option1": "js1",
-      "option2": "js2 ",
-      "option3": "js3",
-      "option4": "js4",
-      "id": 10
-    }
-  ],
-  "css": [
-    {
-      "question": "What does HTML stands for?",
-      "answer": "Hypertext Markup Language",
-      "option1": "Hypertext Machine language.",
-      "option2": "Hypertext and links markup language",
-      "option3": "Hypertext Markup Language",
-      "option4": "Hightext machine language.",
-      "id": 10
-    },
-    {
-      "question": "html",
-      "answer": "a",
-      "option1": "a",
-      "option2": "b",
-      "option3": "c",
-      "option4": "d",
-      "img": "../admin/images/htmlLogo.png",
-      "id": 11
-    }
-	],
-  "results": []
-}
+    "html": [
+      {
+        "question": "What does HTML stand for?",
+        "answer": "Hypertext Markup Language",
+        "option1": "Hypertext Machine Language",
+        "option2": "Hypertext and Links Markup Language",
+        "option3": "Hyperlink and Text Markup Language",
+        "option4": "Hightext Machine Language",
+        "id": 1
+      },
+      {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "answer": "<a>",
+        "option1": "<link>",
+        "option2": "<a>",
+        "option3": "<p>",
+        "option4": "<ul>",
+        "id": 2
+      },
+      {
+        "question": "What is the correct HTML for creating a line break?",
+        "answer": "<br>",
+        "option1": "<lb>",
+        "option2": "<break>",
+        "option3": "<br>",
+        "option4": "<line>",
+        "id": 3
+      },
+      {
+        "question": "Which HTML element is used to define the structure of an HTML document?",
+        "answer": "<!DOCTYPE>",
+        "option1": "<!DOCTYPE>",
+        "option2": "<head>",
+        "option3": "<body>",
+        "option4": "<structure>",
+        "id": 4
+      },
+      {
+        "question": "What is the purpose of the HTML <head> element?",
+        "answer": "Contains metadata about the document",
+        "option1": "Defines the main content of the document",
+        "option2": "Specifies the visible title of the document",
+        "option3": "Contains metadata about the document",
+        "option4": "Sets the page's background color",
+        "id": 5
+      },
+      {
+        "question": "Which HTML tag is used to define a list item in an ordered list?",
+        "answer": "<li>",
+        "option1": "<ol>",
+        "option2": "<ul>",
+        "option3": "<li>",
+        "option4": "<item>",
+        "id": 6
+      },
+      {
+        "question": "What does the 'alt' attribute in an image tag do?",
+        "answer": "Provides alternative text for an image",
+        "option1": "Defines the image's alignment",
+        "option2": "Provides alternative text for an image",
+        "option3": "Changes the image's source",
+        "option4": "Specifies the image's caption",
+        "id": 7
+      },
+      {
+        "question": "Which HTML tag is used for defining a table?",
+        "answer": "<table>",
+        "option1": "<table>",
+        "option2": "<tr>",
+        "option3": "<td>",
+        "option4": "<tbl>",
+        "id": 8
+      },
+      {
+        "question": "What is the correct way to comment out multiple lines of HTML code?",
+        "answer": "&lt;!-- This is a comment --&gt;",
+        "option1": "// This is a comment //",
+        "option2": "/* This is a comment */",
+        "option3": "# This is a comment #",
+        "option4": "&lt;!-- This is a comment --&gt;",
+        "id": 9
+      },
+      {
+        "question": "Which HTML tag is used for creating a hyperlink in a new tab?",
+        "answer": "&lt;a target='_blank' href='https://www.example.com'&gt;Click here&lt;/a&gt;",
+        "option1": "&lt;a href='https://www.example.com'&gt;Click here&lt;/a&gt;",
+        "option2": "&lt;a target='_blank' href='https://www.example.com'&gt;Click here&lt;/a&gt;",
+        "option3": "&lt;a href='https://www.example.com' target='_new'&gt;Click here&lt;/a&gt;",
+        "option4": "&lt;a href='https://www.example.com' target='_blank'&gt;Click here&lt;/a&gt;",
+        "id": 10
+      }
+    ],
+    "css": [
+      {
+        "question": "What does CSS stand for?",
+        "answer": "Cascading Style Sheets",
+        "option1": "Creative Style Sheets",
+        "option2": "Cascading Style Sheets",
+        "option3": "Colorful Style Sheets",
+        "option4": "Cascading Style Scripts",
+        "id": 11
+      },
+      {
+        "question": "Which CSS property is used to change the text color of an element?",
+        "answer": "text-color",
+        "option1": "text-color",
+        "option2": "font-color",
+        "option3": "text-style",
+        "option4": "color",
+        "id": 12
+      },
+      {
+        "question": "What is the purpose of the CSS property 'margin'?",
+        "answer": "Defines the space outside the border of an element",
+        "option1": "Defines the space outside the border of an element",
+        "option2": "Sets the element's background color",
+        "option3": "Adjusts the element's padding",
+        "option4": "Specifies the element's width",
+        "id": 13
+      },
+      {
+        "question": "Which CSS selector is used to select elements with a specific class?",
+        "answer": ".classname",
+        "option1": "#idname",
+        "option2": "elementname",
+        "option3": "[]",
+        "option4": ".classname",
+        "id": 14
+      },
+      {
+        "question": "How can you include an external CSS file in an HTML document?",
+        "answer": "&lt;link rel='stylesheet' href='styles.css'&gt;",
+        "option1": "&lt;style src='styles.css'&gt;",
+        "option2": "&lt;link rel='stylesheet' href='styles.css'&gt;",
+        "option3": "&lt;style href='styles.css'&gt;",
+        "option4": "&lt;link rel='style' href='styles.css'&gt;",
+        "id": 15
+      },
+      {
+        "question": "What does the CSS property 'padding' define?",
+        "answer": "Space inside the element, between the content and the border",
+        "option1": "Space outside the element, beyond the border",
+        "option2": "Space between two elements",
+        "option3": "Space inside the element, between the content and the border",
+        "option4": "Space around the element",
+        "id": 16
+      },
+      {
+        "question": "Which CSS property is used to make text bold?",
+        "answer": "font-weight",
+        "option1": "font-weight",
+        "option2": "font-bold",
+        "option3": "text-bold",
+        "option4": "font-style",
+        "id": 17
+      },
+      {
+        "question": "What is the purpose of the 'display' property in CSS?",
+        "answer": "Controls how an element is displayed",
+        "option1": "Sets the element's background color",
+        "option2": "Controls how an element is displayed",
+        "option3": "Adjusts the element's margin",
+        "option4": "Specifies the element's visibility",
+        "id": 18
+      },
+      {
+        "question": "Which CSS property is used to create rounded corners for an element?",
+        "answer": "border-radius",
+        "option1": "corner-radius",
+        "option2": "border-style",
+        "option3": "border-radius",
+        "option4": "border-round",
+        "id": 19
+      },
+      {
+        "question": "What is the purpose of the CSS property 'float'?",
+        "answer": "Controls the alignment of elements in a container",
+        "option1": "Sets the element's opacity",
+        "option2": "Defines the element's width",
+        "option3": "Creates a shadow for the element",
+        "option4": "Controls the alignment of elements in a container",
+        "id": 20
+      }
+    ],
+    "js": [
+      {
+        "question": "What does JS stand for?",
+        "answer": "JavaScript",
+        "option1": "Java Source",
+        "option2": "JustScript",
+        "option3": "JavaScript",
+        "option4": "JScript",
+        "id": 21
+      },
+      {
+        "question": "Which keyword is used to declare a variable in JavaScript?",
+        "answer": "var",
+        "option1": "int",
+        "option2": "variable",
+        "option3": "var",
+        "option4": "let",
+        "id": 22
+      },
+      {
+        "question": "What is the correct syntax for a single-line comment in JavaScript?",
+        "answer": "// This is a comment",
+        "option1": "// This is a comment",
+        "option2": "/* This is a comment */",
+        "option3": "# This is a comment #",
+        "option4": "<!-- This is a comment -->",
+        "id": 23
+      },
+      {
+        "question": "Which operator is used to compare the equality of two values in JavaScript?",
+        "answer": "==",
+        "option1": "=",
+        "option2": "===",
+        "option3": "!=",
+        "option4": "==",
+        "id": 24
+      },
+      {
+        "question": "What is the purpose of the 'if' statement in JavaScript?",
+        "answer": "To execute code conditionally based on a specified condition",
+        "option1": "To create a loop",
+        "option2": "To execute code conditionally based on a specified condition",
+        "option3": "To declare a variable",
+        "option4": "To output text to the console",
+        "id": 25
+      },
+      {
+        "question": "Which method is used to add an element to the end of an array in JavaScript?",
+        "answer": "push()",
+        "option1": "append()",
+        "option2": "push()",
+        "option3": "insertEnd()",
+        "option4": "addElement()",
+        "id": 26
+      },
+      {
+        "question": "What does 'DOM' stand for in the context of JavaScript?",
+        "answer": "Document Object Model",
+        "option1": "Data Object Model",
+        "option2": "Document Order Model",
+        "option3": "Dynamic Object Model",
+        "option4": "Document Object Model",
+        "id": 27
+      },
+      {
+        "question": "Which method is used to remove the last element from an array in JavaScript?",
+        "answer": "pop()",
+        "option1": "removeLast()",
+        "option2": "deleteLast()",
+        "option3": "pop()",
+        "option4": "extractLast()",
+        "id": 28
+      },
+      {
+        "question": "What is the purpose of the 'else' statement in JavaScript?",
+        "answer": "To execute code when the 'if' condition is false",
+        "option1": "To create a new variable",
+        "option2": "To execute code when the 'if' condition is false",
+        "option3": "To output text to the console",
+        "option4": "To create a loop",
+        "id": 29
+      },
+      {
+        "question": "Which keyword is used to define a function in JavaScript?",
+        "answer": "function",
+        "option1": "def",
+        "option2": "method",
+        "option3": "function",
+        "option4": "define",
+        "id": 30
+      }
+    ],
+    "results": []
+  }
